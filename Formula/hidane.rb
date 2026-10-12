@@ -2,28 +2,28 @@
 class Hidane < Formula
   desc "Firestore emulator without Java, tested against the official one"
   homepage "https://hidane.dev"
-  version "0.2.1"
+  version "0.2.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/hidane-dev/hidane/releases/download/v0.2.1/hidane-0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "542da767a4fa8f5c8d77c6f1d43baa3523f2d3745058d75b1e87f8ed8e759262"
+      url "https://github.com/hidane-dev/hidane/releases/download/v0.2.2/hidane-0.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "96aa6db57b8a3e9e534f3463fec7c3b40994b823101c27d9e69d1894d5cc4121"
     end
     on_intel do
-      url "https://github.com/hidane-dev/hidane/releases/download/v0.2.1/hidane-0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "b8308197d1c3f63cf5f17d558817a2a30aa51d08d415b47a0733405596fa158e"
+      url "https://github.com/hidane-dev/hidane/releases/download/v0.2.2/hidane-0.2.2-x86_64-apple-darwin.tar.gz"
+      sha256 "4f36b843b047bb49ba91e757ec582b465ce480d72e30f36ee7477b9700e64970"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hidane-dev/hidane/releases/download/v0.2.1/hidane-0.2.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "214c508f4dff152a6eaee2cf03b2b21e6e7c9853176b93c95851fe71b2bc30ed"
+      url "https://github.com/hidane-dev/hidane/releases/download/v0.2.2/hidane-0.2.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "1bced6e8e09afd7d101477caffbda7c3353810bc9d9e76213cbee455fbc9ffb6"
     end
     on_intel do
-      url "https://github.com/hidane-dev/hidane/releases/download/v0.2.1/hidane-0.2.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0588698b7765e57190ad4f1e78e2d2db903cea634d71a0c0694e909290b57d61"
+      url "https://github.com/hidane-dev/hidane/releases/download/v0.2.2/hidane-0.2.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2a43e89628280d95d83fa3bed86f5248731c2c7e97e3785fdae945145e803a51"
     end
   end
 
